@@ -1,0 +1,181 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(bg.jfif) no-repeat;
+  background-size: cover;
+  font-family: 'Consolas', monospace;
+  background-color: black;
+}
+.html{
+  font-family: 'Consolas', monospace;
+}
+.subtitle, .profile-picture, .contact {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  font-family: 'Consolas', monospace;
+
+}
+.profile-picture{
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  size: 50px;
+}
+
+.profile-picture {
+  max-width: 100%;
+  clip-path: polygon(20px 0,
+                     calc(100% - 20px) 0,
+                     100% 20px,
+                     100% calc(100% - 20px),
+                     calc(100% - 20px) 100%,
+                     20px 100%,
+                     0 calc(100% - 20px),
+                     0 20px);
+}
+
+.aboutme {
+max-width: 100%;
+clip-path: polygon(20px 0,
+                   calc(100% - 20px) 0,
+                   100% 20px,
+                   100% calc(100% - 20px),
+                   calc(100% - 20px) 100%,
+                   20px 100%,
+                   0 calc(100% - 20px),
+                   0 20px);
+}
+.wrapper {
+
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 80%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: steelblue;
+  font-family: 'Consolas', monospace;
+}
+.name a:link {
+  color: steelblue;
+  }
+  .name a:visited {
+    color: steelblue;
+  }
+.left {
+background-color:rgba(0, 0, 0, 0.5);
+margin: auto;
+max-width: 100%;
+flex: 1;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 10px;
+font-family: 'Consolas', monospace;
+
+}
+.right{
+
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 0%;
+  color: rgb(78, 113, 220);
+  font-family: 'Consolas', monospace;
+}
+.aboutme {
+
+  width: 200px;
+}
+.right h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.right h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.right p{
+  text-align: center;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  width: 100%;
+  display: flex;
+}
+.links li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+  flex: 1; /* Split width appropriately */
+}
+
+.links a:hover {
+  background-color: rgba(49, 10, 86, 0.762);
+}
+.lniks li a{
+  
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.links li a:hover{
+  color: #b9b9b9;
+}
+
+.links a {
+  display: block;
+  color: rgb(19, 157, 255);
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.right2 {
+  margin: auto;
+  max-height: 90%;
+  max-width: 90%;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.button {
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+.button {
+  border: none;
+  color: darkslateblue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+#toggle {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.53);
+  color: darkslateblue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+.button {
+  transition-duration: 0.4s;
+}
+.button:hover{
+  background-color: black;
+  color: rgba(0, 0, 0, 0.503);
+}

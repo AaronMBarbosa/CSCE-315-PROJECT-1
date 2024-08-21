@@ -1,0 +1,210 @@
+.profile-picture {
+  border-radius: 50%;
+} /* This is a comment! */
+body{
+margin: 0;
+padding: 0;
+
+background-size: cover;
+
+}
+html, body {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 10px;
+  padding: 0px;
+  color: whitesmoke;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.name {
+  font-family: 'Roboto', sans-serif;
+  color: whitesmoke;
+  margin-bottom: 2px;
+}
+
+.wrapper {
+
+  max-width: 50%;
+  display: flex;
+  flex-direction: row;
+  height: 80%;
+}
+
+.left, .right {
+  background-color: rgba(128, 0, 0);
+  margin: auto;
+  max-width: 50%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+.right2 {
+  background-color: rgba(128, 0, 0);
+  margin: auto;
+  max-height: 90%;
+  max-width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.left2 {
+  
+  margin: auto;
+  max-width: 900px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.left {
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+.right {
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+.profile-picture {
+border-radius: 50%;
+}
+
+.social-links {
+list-style: none;
+padding-left: 0px;
+font-size: 18px;
+color: burlywood;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 200px;
+}
+
+.links {
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 200px;
+}
+.links li {
+background-color: rgba(128, 0, 0);
+margin-right: 8px;
+}
+.bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.links a {
+display: block;
+text-align: center;
+padding: 8px 16px;
+text-decoration: none;
+}
+
+.links a:hover {
+background-color: rgba(0, 0, 0, 0.1);
+}
+.links a:link {
+color: white;
+}
+.links a:visited {
+color: burlywood;
+}
+.bio a:link {
+color: white;
+}
+.bio a:visited {
+color: burlywood;
+}
+
+body {
+background-color: darkred;
+}
+
+.credit a:visited {
+  color:darksalmon;
+}
+.credit {
+  text-align: center;
+}
+.name a:link {
+color: white;
+}
+.name a:visited {
+color: white;
+}
+.toggle {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button {
+  transition-duration: 0.4s;
+  border-radius: 12px;
+}
+#toggle {
+  border: none;
+  background-color: rgba(128, 0, 0);
+  color: burlywood;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+#toggle:hover{
+  background-color: rgba(0, 0, 0, 0.265);
+  color: rgba(81, 20, 20, 0.734);
+}
+
+/* The animation code */
+@keyframes example {
+from {background-color: white;}
+to {background-color: darkred;}
+}
+@keyframes example2 {
+from {background-color: white;}
+to {background-color: maroon;}
+}
+
+/* The element to apply the animation to */
+/*
+body {
+background-color: darkred;
+animation-name: example;
+animation-duration: 4s;
+}
+
+.left, .right {
+animation-name: example2;
+animation-duration: 4s;
+}
+
+.wrapper {
+animation-name: example;
+animation-duration: 4s;
+} */
